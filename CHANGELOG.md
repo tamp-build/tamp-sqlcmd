@@ -17,3 +17,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 - SqlCmd variables (`-v Name=Value`, repeatable), output file (`-o`), query timeout (`-t`), exit-on-error (`-b`, default true), variable-substitution disable (`-x`), errors-to-stderr (`-r0`/`-r1`).
 - Parallel fluent + object-init authoring surface.
 - Multi-target `net8.0;net9.0;net10.0`.
+- Package now ships XML documentation files (`.xml`) alongside the assembly, so consumers get IntelliSense and API docs. (Mirrors [tamp-build/tamp#3](https://github.com/tamp-build/tamp/pull/50).)
